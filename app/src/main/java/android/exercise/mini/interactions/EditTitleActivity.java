@@ -32,9 +32,10 @@ public class EditTitleActivity extends AppCompatActivity {
     EditText editTextTitle = findViewById(R.id.editTextPageTitle);
 
     // setup - start from static title with "edit" button
+    fabStartEdit.setAlpha(1f);
     fabStartEdit.setVisibility(View.VISIBLE);
-    fabEditDone.setVisibility(View.GONE);
     fabEditDone.setAlpha(0f);
+    fabEditDone.setVisibility(View.GONE);
     textViewTitle.setText("Page title here");
     textViewTitle.setVisibility(View.VISIBLE);
     editTextTitle.setText("Page title here");
